@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+header {
+	background-color: #333333;
+	width: 100%;
+	position: relative;
+
+}
+header h1 {
+	width: 200px;
+	height: 50px;
+	background: url(baidu.png) no-repeat left center;
+	margin-left: 20px;
+}
+
+header li {
+	float: left;
+	padding-right: 25px;
+
+}
+
+header nav {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+}
+
+header nav a {
+	color: white;
+}
+
+/*header*/
+
+#main {
+	background-color: #dedede;
+	padding: 1px 0 1px 0; 
+	
+}
+#main article {
+	margin: 20px;
+	background-color: white;
+	border-right: 3px solid #aeaeae;
+	border-bottom: 3px solid #aeaeae;
+	
+}
+#main article h2 {
+	margin: 20px;
+	padding-top: 40px;
+}
+#main article h3 {
+	margin: 20px;
+}
+#main article span {
+	margin: 20px;
+}
+#main article p {
+	text-indent: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+	padding-bottom: 30px;
+
+}
+#main article img {
+	margin-left: 20px;
+}
+#main article ul {
+	list-style: none;
+	margin: 20px 40px 40px 40px;
+}
+#main article ul li {
+	padding-bottom: 10px;
+}
+#main article figure {
+	margin:20px 1050px 10px 80px;
+	border: 1px solid #dedede;
+	padding:20px;
+}
+#main article figcaption {
+	margin: 20px;
+}
+#main article figure img {
+	height: 100px;
+	width: 100px;
+
+}
+#main article ol {
+	margin-left: 60px;
+	padding-top: 20px;
+}
+#main article ol li {
+	padding-bottom: 10px;
+}
+#main article table {
+	width: 1250px;
+	margin: 0 auto 20px;
+	 border-collapse:collapse;
+	border: 1px solid  #dedede;
+}
+#main article table caption {
+	text-align: left;
+}
+#main article table th {
+	border: 1px solid  #dedede;
+	text-align: left;
+	padding: 5px;
+	background-color: #333333;
+	color: white;
+}
+#main article table td {
+	border: 1px solid  #dedede;
+	text-align: left;
+	padding: 5px;
+}
+#main article table .alt {
+	background-color: #dedede;
+}
+aside {
+	margin: 20px;
+	background-color: white; 
+	border-right: 3px solid #aeaeae;
+	border-bottom: 3px solid #aeaeae;
+	padding-top: 20px;
+
+}
+aside h2 {
+	border-left: 3px solid #dedede;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+aside form {
+	text-align: left;
+	margin
+}
+
+aside .form-con {
+	margin:10px 0 10px 200px;
+	padding-bottom: 20px;
+}
+aside .infor {
+	
+	display: inline-block;
+	width: 130px;
+    text-align: right;
+}
+
+aside p {
+	font-size: 16px;
+    margin-left: 130px;
+    color: #999;
+    padding-top: 9px;
+}
+aside .button {
+	width: 900px;
+	background-color: #337ab7;
+	padding:10px 0;
+	margin-bottom: 15px;
+}
+footer {
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+
+	
+}
+footer span {
+	color: white;
+	
+}
